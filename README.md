@@ -1,16 +1,134 @@
-# React + Vite
+# 🌐 Flavora – Discover Flavours
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Site: https://flavoradiscoverflavours.netlify.app
 
-Currently, two official plugins are available:
+Flavora is a modern web application built with React and Vite that helps users explore and discover a variety of flavours, recipes, and food inspirations in an interactive and visually appealing way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚡ Fast performance with Vite
+* 🎨 Clean and responsive UI
+* 🔥 Hot Module Replacement (HMR)
+* 📱 Mobile-friendly design
+* 🧭 Easy navigation and user experience
+* 🌍 Deployed on Netlify
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** CSS / Tailwind (if used)
+* **Build Tool:** Vite
+* **Deployment:** Netlify
+
+---
+
+## 📁 Project Structure
+
+```
+flavora/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/yourusername/flavora.git
+cd flavora
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+### 4️⃣ Open in browser
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🔌 Vite + React Plugins
+
+This project supports:
+
+* `@vitejs/plugin-react` (uses Oxc)
+* `@vitejs/plugin-react-swc` (uses SWC)
+
+---
+
+## 🧠 Future Improvements
+
+* 🔍 Search and filter recipes
+* ❤️ User favorites / bookmarking
+* 🔐 Authentication system
+* 🌐 Backend integration (MERN stack)
+* 📊 Analytics dashboard
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Mohammed Aarifullah A**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
